@@ -54,7 +54,7 @@ datatype will be a nested class.
 ## 2. ORM and Migrations
 We worked on the next files:
 * basicapp/models.py -> Two DB tables created by ORM using OOP
-* /settings -> new parameter added in INSTALLED_APPS section
+* /settings.py -> new parameter added in INSTALLED_APPS section
 * Console -> command: py manage.py makemigrations "appname"
 * Console -> command: py manage.py migrate
 
