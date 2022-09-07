@@ -38,7 +38,7 @@ In Django we work by project but, every project can have many apps.
 To create an app enter the next command:
 py manage.py startapp "appname"
 
-## First Step
+## 1. Hello Fer Mavec
 We work on the next files:
 * /polls/views.py -> HttpResponse imported,  index function created
 * /polls/urls.py -> Libraries imported and urlpattern list created
@@ -51,7 +51,7 @@ Django, each table from database will be represented as model (an OOP class);
 each column from RDB will be created as an attribute for that class and each
 datatype will be a nested class.
 
-## Step Two
+## 2. ORM and Migrations
 We work on the next files:
 * basicapp/models.py -> Two DB tables created by ORM using OOP
 * /settings -> new parameter added in INSTALLED_APPS section
@@ -59,4 +59,4 @@ We work on the next files:
 * Console -> command: py manage.py migrate
 
 Migrations are an historical file that helps everyone to replicate 
-the DB structure created.
+the DB structure created
