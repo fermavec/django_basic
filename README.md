@@ -43,3 +43,10 @@ We work on the next files:
 * /polls/views.py -> HttpResponse imported,  index function created
 * /polls/urls.py -> Libraries imported and urlpattern list created
 * /urls.py -> "include" was imported and new pattern registered
+
+### ORM (Object Relational Mapping)
+Using some libraries and frameworks I can simulate and relate a RDB 
+(Relational DataBase) through OOP (Object Oriented Programming) paradigm. In
+Django, each table from database will be represented as model (an OOP class);
+each column from RDB will be created as an attribute for that class and each
+datatype will be a nested class.
