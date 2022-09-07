@@ -39,7 +39,7 @@ To create an app enter the next command:
 py manage.py startapp "appname"
 
 ## 1. Hello Fer Mavec
-We work on the next files:
+We worked on the next files:
 * /polls/views.py -> HttpResponse imported,  index function created
 * /polls/urls.py -> Libraries imported and urlpattern list created
 * /urls.py -> "include" was imported and new pattern registered
@@ -52,7 +52,7 @@ each column from RDB will be created as an attribute for that class and each
 datatype will be a nested class.
 
 ## 2. ORM and Migrations
-We work on the next files:
+We worked on the next files:
 * basicapp/models.py -> Two DB tables created by ORM using OOP
 * /settings -> new parameter added in INSTALLED_APPS section
 * Console -> command: py manage.py makemigrations "appname"
