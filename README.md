@@ -50,3 +50,13 @@ Using some libraries and frameworks I can simulate and relate a RDB
 Django, each table from database will be represented as model (an OOP class);
 each column from RDB will be created as an attribute for that class and each
 datatype will be a nested class.
+
+## Step Two
+We work on the next files:
+* basicapp/models.py -> Two DB tables created by ORM using OOP
+* /settings -> new parameter added in INSTALLED_APPS section
+* Console -> command: py manage.py makemigrations "appname"
+* Console -> command: py manage.py migrate
+
+Migrations are an historical file that helps everyone to replicate 
+the DB structure created.
