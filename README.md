@@ -7,7 +7,7 @@ Using VSCode, CMder, Django, Git Bash and Google Chrome
 Install in virtual environment:
 pip install django
 
-Run Django:
+Running Django:
 django-admin startproject "appname"
 
 ## Explaining the created files
@@ -31,3 +31,15 @@ py manage.py runserver
 * Remember: in settings.py there is a variable called DEBUG. When you
 are working localhost it has to be TRUE; if you upload your project to 
 production, the variable DEBUG has to be FALSE.
+
+## Projects vs Apps
+In Django we work by project but, every project can have many apps.
+
+To create an app enter the next command:
+py manage.py startapp "appname"
+
+## First Step
+We work on the next files:
+* /polls/views.py -> HttpResponse imported,  index function created
+* /polls/urls.py -> Libraries imported and urlpattern list created
+* /urls.py -> "include" was imported and new pattern registered
