@@ -109,5 +109,11 @@ and Front end (Templates).
 A view can be made by functions (function based view) or with classes (Generic View). To see the
 code go to appbasic/views.py file
 
+## 4. Index Template
+We work on the next files to create the first template for our webapp:
+* polls/views.py
+* polls/urls.py
+* polls/templates/index.html
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
