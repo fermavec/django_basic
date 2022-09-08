@@ -110,10 +110,15 @@ A view can be made by functions (function based view) or with classes (Generic V
 code go to appbasic/views.py file
 
 ## 4. Index Template
-We work on the next files to create the first template for our webapp:
+We worked on the next files to create the first template for our webapp:
 * polls/views.py
 * polls/urls.py
 * polls/templates/index.html
+
+## 4. 404 Error
+We worked on the next files:
+* polls/views.py
+* polls/templates/detail.py
 
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
