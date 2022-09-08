@@ -60,3 +60,14 @@ We worked on the next files:
 
 Migrations are an historical file that helps everyone to replicate 
 the DB structure created
+
+## Django Shell
+Django has it's own shell to work and you can access by:
+Command: py manage.py shell
+
+Then run:
+* from "modelname".models import "classname"
+* "classname".objects.all() -> Brins all the info register in "classname"
+* from django.utils import timezone -> helps us to create date time objects
+* "variablename" = "classname"(atribute_1="data"...+) -> Registers new object
+* "variablename".save() -> saves the variable in DB
