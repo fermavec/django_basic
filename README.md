@@ -102,5 +102,12 @@ To use the next command you should be carefull because it will contain sensitive
 * Then go to hostpage/admin
 * Type your username and password
 
+## MTV (Model Template View) Architecture
+Django let us build simple webapps. To do that, Django uses MTV to work the backend(Views)
+and Front end (Templates). 
+
+A view can be made by functions (function based view) or with classes (Generic View). To see the
+code go to appbasic/views.py file
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
