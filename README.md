@@ -71,3 +71,4 @@ Then run:
 * from django.utils import timezone -> helps us to create date time objects
 * "variablename" = "classname"(atribute_1="data"...+) -> Registers new object
 * "variablename".save() -> saves the variable in DB
+* "variablename".attribute -> shows the attribute value
