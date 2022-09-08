@@ -73,13 +73,23 @@ Then run:
 * "variablename".save() -> saves the variable in DB
 * "variablename".attribute -> shows the attribute value
 
-# Method GET
+## Method GET
 Allows you to get only one value of an object using some condition. 
 Command: "Classname".objects.get("condition")
 (a condition example can be: pk=# -> shows the data saved whit the primary key you selected)
 
-# Method FILTER
+## Method FILTER
 This method let you to get more than one value. Is the same sintaxis as get method,
 you just need to change "get" by "filter"
 Example:
 "Classname".objects.filter("date_atribute"__year= timezone.now().year) -> You'll get all the objects published at the year
+
+## 3. Choices
+To assign a value from some table to another one, you can use:
+
+* "varname"."tableclass"_set.create("atributes") -> Creates a new object associated to "varname"
+* "varname"."tableclass"_set.all() -> To view all the objects associated
+* "varname"."tableclass"_set.count() -> To count all the objects associated
+
+# Documentation
+https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
