@@ -91,5 +91,16 @@ To assign a value from some table to another one, you can use:
 * "varname"."tableclass"_set.all() -> To view all the objects associated
 * "varname"."tableclass"_set.count() -> To count all the objects associated
 
+## Django Manager
+It is a graphic interface that let us work with Django whitout code knowledge
+
+ALERT!
+To use the next command you should be carefull because it will contain sensitive information.
+* py manage.py createsuperuser
+* Set your username and password
+* Enable the models you want in the manager in /admin.py file (admin.site.register("modelname"))
+* Then go to hostpage/admin
+* Type your username and password
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
