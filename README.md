@@ -72,3 +72,9 @@ Then run:
 * "variablename" = "classname"(atribute_1="data"...+) -> Registers new object
 * "variablename".save() -> saves the variable in DB
 * "variablename".attribute -> shows the attribute value
+
+# Methos GET
+Allows you to get only one value of an object using some condition. 
+Command: "Classname".objects.get("condition")
+(a condition example can be: pk=# -> shows the data saved whit the primary key you selected)
+
