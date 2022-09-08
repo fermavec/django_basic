@@ -120,5 +120,10 @@ We worked on the next files:
 * polls/views.py
 * polls/templates/detail.py
 
+## 5. Labels
+We used Django labels to avoid hardcoding. Files updated:
+* polls/urks.py
+* /templates/polls/index.html
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
