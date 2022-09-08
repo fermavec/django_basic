@@ -1,4 +1,3 @@
-from urllib import request
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Question
@@ -6,9 +5,10 @@ from .models import Question
 # Create your views here.
 def index(response):
     latest_question_list = Question.objects.all()
-    return render(request, "polls/index.html", {
-        "latest_question_list": latest_question_list,
-    })
+    context = {
+        "latest_question_list": latest_question_list
+    }
+    return render(response, "polls/index.html", context)
 
 
 def detail(response, question_id):
