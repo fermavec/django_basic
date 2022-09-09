@@ -129,5 +129,9 @@ We used Django labels to avoid hardcoding. Files updated:
 Worked on a form to submit. The files modified are:
 * /templates/polls/detail.html
 
+## 7. Vote View
+We worked on the view for vote section. Files updated:
+* polls/views.py
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
