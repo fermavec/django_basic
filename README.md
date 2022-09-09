@@ -133,5 +133,9 @@ Worked on a form to submit. The files modified are:
 We worked on the view for vote section. Files updated:
 * polls/views.py
 
+## Generic Views
+We use generic views to accomplish DRY principle (Don't Repeat Yourself).
+Find all the possible generic views here: http://ccbv.co.uk/
+
 # Documentation
 https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro
