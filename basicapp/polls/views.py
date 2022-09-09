@@ -21,7 +21,11 @@ def detail(request, question_id):
 
 
 def results(request, question_id):
-    return HttpResponse(f'You are seeing the results for {question_id} question')
+    question = get_object_or_404(Question, pk=question_id)
+    context = {
+        "question": question
+    }
+    return render(request, "polls/results.html", context)
 
 
 def vote(request, question_id):
@@ -34,6 +38,6 @@ def vote(request, question_id):
             "error_message": "Select a correct answer"
         })
     else:
-        selected_choice.votes += 1
+        selected_choice.votes = selected_choice.votes + 1
         selected_choice.save()
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
